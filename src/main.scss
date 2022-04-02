@@ -1,0 +1,78 @@
+body{
+    color:rgb(238, 8, 8);
+}
+
+.wrapper {
+    width:auto;
+    height:auto;
+
+    .header{
+        display:flex;
+        justify-content: space-between;
+        height:55px;
+        margin: 5px 65px;
+    }
+    .header img{
+        width:auto;
+    }    
+}
+
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.header{
+    position:relative;
+    width:auto;
+    height:200px;
+}
+
+
+.polaroid{
+        display:flex;
+        flex-direction: column;
+        margin:10px;
+        border:1px solid rgb(80, 79, 79);
+        width: 200px;
+        height: 280px;
+        
+
+        .image-container{
+            margin: 10px;
+            border:1px solid black;
+            width:89%;
+            height:62%;
+            overflow:hidden;
+        }
+
+     
+
+        h4{
+            margin:5px 15px;
+            font-size: 13px;
+
+        }
+        
+
+        h4:nth-child(2):before{
+            content:'Name: ';
+            color: rgb(61, 61, 61),
+        }
+
+        h4:nth-child(3):before{
+            content:'City: ';
+            color:rgb(58, 58, 58);
+        }
+
+        img{
+            width:295px;
+            object-fit: cover;
+            background-position: top;
+            object-position: bottom;
+        }
+    }
+
