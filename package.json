@@ -1,6 +1,7 @@
 {
   "name": "random-polaroid",
   "main": "index.js",
+  "homepage": "https://ivoserra.github.io/randompolaroid/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
